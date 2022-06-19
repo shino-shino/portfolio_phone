@@ -95,14 +95,14 @@
     }
   }
   window.addEventListener('scroll', function () {
-    if (set_position < 50) {
+    if (set_position < 60) {
       // console.log(`top`);
       header.classList.add('top');
       header.classList.remove('top_reload');
     } else {
       header.classList.remove('top');
     }
-    if (set_position < document.documentElement.scrollTop) {
+    if (set_position < document.documentElement.scrollTop && this.document.documentElement.scrollTop > 30) {
       // console.log(`down`);
       header.classList.add('down');
       header.classList.remove('up');
