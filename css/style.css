@@ -86,6 +86,7 @@ header.down {
 header.up {
   transform: translateY(0);
   transition: transform .5s;
+  will-change: transform;
 }
 
 .logo img {
@@ -182,7 +183,7 @@ nav.menu i {
   padding: 24px;
   /*opacity: 0;*/
   /*pointer-events: none;*/
-  transform: translateX(1000px);
+  transform: translateX(150vw);
   transition: transform .5s;
 }
 
@@ -191,6 +192,7 @@ nav.menu i {
   /*pointer-events: auto;*/
   transform: none;
   transition: transform .5s;
+  will-change: transform;
 }
 
 .overlay .bi-x:hover {
