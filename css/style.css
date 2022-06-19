@@ -217,13 +217,13 @@ nav.menu i {
 }
 
 .overlay .button_second_type {
-  padding: 20px;
+  padding: 10px;
   margin: 0;
-  font-size: 42px;
+  font-size: 26px;
 }
 
 .overlay .button_second_type.mini{
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .overlay ul {
@@ -638,7 +638,7 @@ dl > div.appear dd{
 }
 
 .settings .privacy p {
-  font-size: 16px;
+  font-size: 14px;
   padding: 8px 0;
 }
 
@@ -660,7 +660,7 @@ dl > div.appear dd{
 select {
   border: none;
   outline: none;
-  padding-right:80px;
+  padding-right:40px;
 }
 
 .text {
